@@ -1,8 +1,8 @@
 {"intents":[
     {
         "tag": "saludo",
-        "patterns": ["hola", "qué tal", "como estás", "saludos"],
-        "responses": ["Hola!", "Buenos días!", "¿Cómo estás?"]
+        "patterns": ["hola"],
+        "responses": ["Hola! ¿Cómo estás?"]
     },
     {
         "tag": "nombre",
@@ -138,10 +138,7 @@
         "tag": "venta14",
         "patterns": ["¿Pueden recomendarme un lente específico?", "¿Qué lente es mejor para retratos?", "¿Cuál es el lente más versátil?"],
         "responses":  ["Para retratos, te recomendamos un lente prime con una apertura amplia, como un 50mm"]
-    }    
-
-
+    }   
 ]
-
 }
 
