@@ -1,14 +1,147 @@
 {"intents":[
     {
         "tag": "saludo",
-        "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+        "patterns": ["hola", "qué tal", "como estás", "saludos"],
         "responses": ["Hola!", "Buenos días!", "¿Cómo estás?"]
     },
     {
         "tag": "nombre",
-        "patterns": ["cómo es tu nombre", "cómo te llamas"],
-        "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
-    }
+        "patterns": ["como te llamas"],
+        "responses": ["Mi nombre es Jhon Ardila"]
+    },
+    {
+        "tag": "edad1",
+        "patterns": ["qué edad tienes"],
+        "responses": ["37 Años!"]
+    },
+    {
+        "tag": "trabajos1",
+        "patterns": ["donde trabajas", "cual es tu trabajo"],
+        "responses": ["trabajo en el ICBF"]
+    },
+    {
+        "tag": "estudios1",
+        "patterns": ["que estudias", "estudios"],
+        "responses": ["Soy Tecnólogo en desarrollo de sistemas y telecomunicaciones!"]
+    },
+    {
+        "tag": "gustos1",
+        "patterns": ["que te gusta", "que haces"],
+        "responses": ["Me gusta viajar, conocer lugares nuevos"]
+    },
+    {
+        "tag": "esperas1",
+        "patterns": ["qué esperas de la vida"],
+        "responses": ["Terminar mis estudios como ING de sistemas y dedicarme a la ING"]
+    },
+    {
+        "tag": "empresa1",
+        "patterns": ["Tienes empresa", "empresa"],
+        "responses": ["tengo una empresa de instalacion de cámaras y mantenimientos de equipo"]
+    },
+    {
+        "tag": "marcas1",
+        "patterns": ["que cámaras vendes"],
+        "responses": ["hikvision HD"]
+    },
+    {
+        "tag": "precios1",
+        "patterns": ["que precio tienen"],
+        "responses": ["depende del tipo de cámara"]
+    },
+    {
+        "tag": "tipos1",
+        "patterns": ["de que tipo vende"],
+        "responses": ["tipo bala y domo"]
+    },
+    {
+        "tag": "valores1",
+        "patterns": ["precio tipo bala"],
+        "responses": ["las tipo bala tiene un valor de $50.000"]
+    },
+    {
+        "tag": "valor1",
+        "patterns": ["precio tipo domo"],
+        "responses": ["las tipo domo tiene un valor de $45.500"]
+    },
+    {
+        "tag": "vendes",
+        "patterns": ["que mas vendes"],
+        "responses": ["tenemos video balun, cable utp, rj45, cargadores de cámaras entre otrosc"]
+    },
+    {
+        "tag": "venta1",
+        "patterns": ["¿Qué cámaras tienen disponibles?", "Quiero comprar una cámara", "¿Cuáles son sus opciones de cámaras?"],
+        "responses": ["Tenemos una amplia gama de cámaras, incluyendo cámaras DSLR, cámaras sin espejo, cámaras compactas y cámaras de acción de marcas como Canon, Nikon, Sony y GoPro."]
+    },
+    {
+        "tag": "venta2",
+        "patterns": ["¿Puedes recomendarme una cámara?", "Necesito una cámara para fotografía", "¿Cuál es la mejor cámara que tienen?"],
+        "responses": ["Dependiendo de tus necesidades, te puedo recomendar una cámara DSLR como la Canon EOS 5D Mark IV para fotografía profesional o una cámara sin espejo como la Sony Alpha a7 III para versatilidad y calidad."]
+    },
+    {
+        "tag": "venta3",
+        "patterns": ["¿Tienen cámaras de acción?", "Estoy buscando una cámara resistente", "Quiero una cámara para deportes extremos"],
+        "responses": ["Sí, ofrecemos cámaras de acción de alta calidad como la GoPro Hero 9 Black y la DJI Osmo Action. Son ideales para actividades al aire libre y deportes extremos debido a su resistencia y calidad de video."]
+    },
+    {
+        "tag": "venta4",
+        "patterns": ["¿Qué accesorios recomiendan para cámaras?", "Necesito complementos para mi cámara", "¿Tienen lentes adicionales?"],
+        "responses": ["Te recomendamos considerar lentes adicionales, trípodes, mochilas para cámaras, tarjetas de memoria de alta capacidad y filtros. Tenemos una variedad de accesorios disponibles para mejorar tu experiencia fotográfica."]
+    },
+    {
+        "tag": "venta5",
+        "patterns": ["¿Tienen cámaras para vlogging?", "Necesito una cámara para grabar videos", "¿Qué cámara me ayudaría con mi canal de YouTube?"],
+        "responses": ["Para vlogging, te sugerimos una cámara con pantalla abatible como la Canon EOS M50 Mark II o la Sony ZV-1. Son ideales para grabar videos de alta calidad y selfies."]
+    },
+    {
+        "tag": "venta6",
+        "patterns": ["¿Cuál es el precio de sus cámaras?", "¿Cuánto cuesta una cámara?", "¿Tienen ofertas especiales?"],
+        "responses": ["Los precios varían según el modelo y las características. Te invitamos a visitar nuestro sitio web o tienda para ver los precios actuales. También ofrecemos promociones y descuentos en ciertos modelos, así que asegúrate de consultar nuestras ofertas."]
+    },
+    {
+        "tag": "venta7",
+        "patterns": ["¿Ofrecen garantía en las cámaras?", "¿Cuál es la política de garantía?", "¿Qué cubre la garantía?"],
+        "responses": ["Sí, todas nuestras cámaras vienen con garantía estándar del fabricante. La política de garantía cubre defectos de fabricación y problemas relacionados con el funcionamiento normal de la cámara. Para más detalles, consulta nuestra política de garantía en el sitio web o en la tienda."]
+    },
+    {
+        "tag": "venta8",
+        "patterns": ["¿Tienen servicio de reparación?", "¿Dónde puedo reparar mi cámara?", "¿Cuánto tiempo tarda una reparación?"],
+        "responses": ["Sí, ofrecemos servicio de reparación para cámaras en nuestra tienda. El tiempo de reparación varía según la complejidad del problema, pero generalmente tratamos de hacerlo lo más rápido posible para minimizar las molestias."]
+    },
+    {
+        "tag": "venta9",
+        "patterns": ["¿Puedo probar una cámara antes de comprarla?", "¿Tienen cámaras de demostración?", "¿Puedo ver cómo funciona una cámara?"],
+        "responses": ["Por supuesto, tenemos cámaras de demostración disponibles en la tienda para que puedas probarlas antes de tomar una decisión de compra. Estaremos encantados de mostrarte cómo funcionan."]
+    },
+    {
+        "tag": "venta10",
+        "patterns": ["¿Qué tipos de pago aceptan?", "¿Cuáles son las opciones de pago?", "¿Puedo pagar con tarjeta de crédito?"],
+        "responses": ["Aceptamos diversas formas de pago, incluyendo efectivo, tarjetas de crédito, tarjetas de débito y transferencias bancarias. Puedes pagar con tarjeta de crédito Visa, MasterCard, y American Express."]
+    },  
+    {
+        "tag": "venta11",
+        "patterns": ["¿Tienen financiamiento disponible?", "¿Puedo pagar a plazos?", "¿Ofrecen opciones de financiamiento?"],
+        "responses": ["Sí, ofrecemos opciones de financiamiento a plazos para la compra de cámaras y equipos relacionados. Puedes obtener más información sobre nuestras opciones de financiamiento en la tienda."]
+    },
+    {
+        "tag": "venta12",
+        "patterns": ["¿Tienen cámaras usadas o reacondicionadas?", "¿Venden cámaras de segunda mano?", "¿Puedo comprar una cámara usada?"],
+        "responses": ["Sí, ocasionalmente tenemos cámaras usadas o reacondicionadas en stock. Estas cámaras son inspeccionadas y certificadas para garantizar su calidad. Si estás interesado en una cámara usada, consulta con nuestro equipo de ventas para conocer las opciones disponibles."]
+    },
+    {
+        "tag": "venta13",
+        "patterns": ["¿Ofrecen clases o talleres de fotografía?", "¿Dónde puedo aprender a usar mi cámara?", "¿Tienen programas de capacitación?"],
+        "responses": ["Sí, ofrecemos clases y talleres de fotografía para ayudarte a sacar el máximo provecho de tu cámara. Nuestros instructores expertos te enseñarán técnicas de fotografía y cómo utilizar tu equipo de manera efectiva."]
+    },
+    {
+        "tag": "venta14",
+        "patterns": ["¿Pueden recomendarme un lente específico?", "¿Qué lente es mejor para retratos?", "¿Cuál es el lente más versátil?"],
+        "responses":  ["Para retratos, te recomendamos un lente prime con una apertura amplia, como un 50mm"]
+    }    
+
+
 ]
 
 }
+
